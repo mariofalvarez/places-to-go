@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-image: url("./img/tokyo-luv-tnzzbvW9Rps-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+header {
+  height: 10vh;
+  background-color: #34495e77;
+  display: table;
+  width: 100%;
+}
+
+.nav-link-container {
+  display: table;
+  float: right;
+  height: 10vh;
+  margin-right: 60px;
+}
+
+.nav-link {
+  display: table-cell;
+  vertical-align: middle;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-link:not(:last-child) {
+  margin-right: 10px;
+}
+
+.name {
+  color: rgb(255, 255, 255);
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 120px;
+}
+
+.name,
+.nav-link {
+  letter-spacing: 3px;
+}
+
+.container {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.507);
+}
+
+.card-header {
+  height: 25%;
+  display: table;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: grey;
+}
+
+.card-header-text {
+  display: table-cell;
+  color: white;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.card-text {
+  padding: 15px;
+}
+
+.red-text {
+  color: red;
+}
+
+.centered {
+  text-align: center;
+}
+
+main {
+  height: 80vh;
+  position: relative;
+}
+
+/* .left {
+  height: 100%;
+  width: 50%;
+  float: left;
+  background-color: #9b59b6;
+}
+
+.right {
+  height: 100%;
+  width: 50%;
+  float: right;
+  background-color: #7a6de7;
+} */
+
+footer {
+  height: 10vh;
+  background-color: #34495e81;
+}
